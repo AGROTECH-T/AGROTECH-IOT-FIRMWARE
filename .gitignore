@@ -1,0 +1,6 @@
+gateway/GatewayConfig.local.h
+__pycache__/
+*.pyc
+build/
+*.bin
+*.elf

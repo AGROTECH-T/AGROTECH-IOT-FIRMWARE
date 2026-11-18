@@ -1,0 +1,27 @@
+{
+  "source": "test_vectors/test_protocol.py reference encoder (BUILD-IOT-SENSOR-FAILOVER-05)",
+  "note": "DHT11 backup pair on channels 3/4. Same public test key, UID and HMAC context as official_vector.json; the key is a public test key, not a credential.",
+  "frame_version": 1,
+  "coordinator_uid": "CO-7K3M9QXT2A",
+  "key_version": 1,
+  "boot_counter": 7,
+  "seq": 121,
+  "readings": [
+    {
+      "channel": 3,
+      "metric_code": 1,
+      "value": 3010
+    },
+    {
+      "channel": 4,
+      "metric_code": 2,
+      "value": 7060
+    }
+  ],
+  "hmac_context": "agrotech:lora-frame:v1",
+  "signed_hex": "01434f2d374b334d39515854324100010000000700000079020003010bc20004021b94",
+  "tag_hex": "f87e2816cca31046c73198e0068745ec5f959caa5cc7e85e119f7c429f9a2bd7",
+  "frame_hex": "01434f2d374b334d39515854324100010000000700000079020003010bc20004021b94f87e2816cca31046c73198e0068745ec5f959caa5cc7e85e119f7c429f9a2bd7",
+  "frame_base64": "AUNPLTdLM005UVhUMkEAAQAAAAcAAAB5AgADAQvCAAQCG5T4figWzKMQRscxmOAGh0XsX5WcqlzH6F4Rn3xCn5or1w==",
+  "frame_length": 67
+}
